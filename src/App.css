@@ -1,21 +1,27 @@
+body{
+    background-color: #222;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 1s linear;
+  /* animation: App-logo-spin infinite 1s linear; */
   height: 80px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 350px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 5.5em;
+  background-color: #222;
+  color: white;
 }
 
 .App-intro {
@@ -26,3 +32,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Typist .Cursor {
+  display: inline-block; }
+  .Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
