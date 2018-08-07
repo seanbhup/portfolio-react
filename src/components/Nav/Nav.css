@@ -1,0 +1,11 @@
+.fullNav{
+    opacity: .5;    
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-brand{
+    color: blue !important;
+}

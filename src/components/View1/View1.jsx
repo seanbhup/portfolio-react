@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import pacman from './images/Pacman.svg';
-import jianyang from './images/jianyang.png'
-import './App.css';
+import pacman from '../../images/Pacman.svg';
+import jianyang from '../../images/jianyang.png'
 import Typist from 'react-typist';
+import './View1.css';
 
 class View1 extends Component {
     render() {

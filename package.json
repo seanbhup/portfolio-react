@@ -8,6 +8,7 @@
   "dependencies": {
     "animejs": "^2.2.0",
     "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
     "react-typist": "^2.0.4"
   },

@@ -1,0 +1,17 @@
+.View1{
+    text-align: center;
+    height: 95vh;
+    border-bottom: 1px solid white;
+}
+
+.View1-header{
+    background-color: #222;
+    height: 200px;
+    color: white;
+}
+
+.View1-title{
+    font-size: 96px;
+    background-color: #222;
+    color: white;
+}

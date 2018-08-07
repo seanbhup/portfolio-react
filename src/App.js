@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-import FullView from './FullView.jsx';
+import FullView from './components/FullView/FullView.jsx';
 
 class App extends Component {
   render() {
