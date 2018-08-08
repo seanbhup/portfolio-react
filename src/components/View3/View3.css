@@ -1,22 +1,22 @@
-.View1{
+.View3{
     text-align: center;
     height: 100vh;
     border-bottom: 1px solid white;
 }
 
-.View1-logo{
+.View3-logo{
     /* animation: App-logo-spin infinite 1s linear; */
     height: 80px;
 }
 
-.View1-header{
+.View3-header{
     background-color: #222;
     height: 200px;
     padding: 20px;
     color: white;
 }
 
-.View1-title{
+.View3-title{
     font-size: 5.5em;
     background-color: #222;
     color: white;

@@ -7,7 +7,7 @@ import './View2.css';
 class View2 extends Component {
     render() {
         return (
-            <div>
+            <div id='View2'>
                 <div className="View2">
                     <header className="View2-header">
                         <img src={pacman} className="View2-pacman" alt="pacman"/>
@@ -15,7 +15,7 @@ class View2 extends Component {
                     <Typist className="View2-title">
                         <span>Jinyang</span>
                         <Typist.Backspace count={7} delay={3000}/>
-                        <span>View 2</span>
+                        <span>About</span>
                     </Typist>
                     <img src={jianyang} className="jianyang"/>
                 </div>

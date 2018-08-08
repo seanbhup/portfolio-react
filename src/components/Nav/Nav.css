@@ -1,11 +1,15 @@
-.fullNav{
-    opacity: .5;    
+.nav{
+    position: fixed;
+    font-size: 40px;
+    font-family: Space Age;
 }
 
-.navbar{
-    margin-bottom: 0px;
+.nav-left{
+    width:100%;
+    left:0;
 }
 
-.navbar-brand{
-    color: blue !important;
+.nav-right{
+
+    right:0px;
 }
