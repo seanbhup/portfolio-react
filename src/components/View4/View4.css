@@ -21,3 +21,20 @@
     background-color: #222;
     color: white;
 }
+
+.up-arrow {
+    color:green;
+    animation: bounce .75s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.05, .5, .5, 1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(0, 25px, 0);
+    }
+}

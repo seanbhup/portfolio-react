@@ -2,6 +2,7 @@
     text-align: center;
     height: 100vh;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .View2-logo{
@@ -20,4 +21,22 @@
     font-size: 5.5em;
     background-color: #222;
     color: white;
+}
+
+.down-arrow {
+    padding-top:125px;
+    color:green;
+    animation: bounce .75s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 150px, 0);
+    }
+    to {
+        transform: translate3d(0, 75px, 0);
+    }
 }

@@ -1,23 +1,51 @@
-.View1{
+.View1 {
     text-align: center;
     height: 100vh;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
-.View1-logo{
+.View1-logo {
     /* animation: App-logo-spin infinite 1s linear; */
     height: 80px;
 }
 
-.View1-header{
+.View1-header {
     background-color: #222;
     height: 200px;
     padding: 20px;
     color: white;
 }
 
-.View1-title{
+.View1-title {
     font-size: 5.5em;
     background-color: #222;
     color: white;
+}
+
+.jianyang{
+
+}
+
+.space{
+    height:17.5vh;
+    width:100%;
+    background-color:purple;
+}
+
+.view1-down-arrow {
+
+    animation: bounce .75s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 100px, 0);
+    }
+    to {
+        transform: translate3d(0, 175px, 0);
+    }
 }
