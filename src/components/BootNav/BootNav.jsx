@@ -12,7 +12,7 @@ class BootNav extends Component {
                 <Navbar fixedTop='true' fluid='true' inverse="inverse" collapseOnSelect="true">
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href=''>NOT SURE YET</a>
+                            <a href=''>PROB NOTHING</a>
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                             <a href={Resume} download>Resume Download</a>
                         </Navbar.Brand>
@@ -21,7 +21,7 @@ class BootNav extends Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavItem eventKey={1} href="#">
-                                Something maybe
+                                PROB NOTHING
                             </NavItem>
                             <NavItem eventKey={2} href="#">
                                 <Modal />

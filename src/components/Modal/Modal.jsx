@@ -26,7 +26,7 @@ class ResumeModal extends Component {
     render() {
         return (<ButtonToolbar>
             <div onClick={this.handleShow}>
-                Modal
+                Misplaced Modal
             </div>
             <Modal {...this.props} show={this.state.show} onHide={this.handleHide} dialogClassName="custom-modal">
                 <Modal.Header closeButton="closeButton">
