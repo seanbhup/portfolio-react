@@ -1,15 +1,83 @@
+a:hover{
+    fill:#252934 !important;
+    transition: 250ms !important;
+    transition-timing-function: ease-in-out !important;
+    text-decoration:none;
+}
+
+a:active{
+    text-decoration: none;
+    color:#0EB1D2;
+}
+a:visited{
+    text-decoration: none;
+    color:#0EB1D2;
+}
+
+a:after{
+    text-decoration:none;
+    color:#0EB1D2;
+}
+
+
+
 .nav{
+    width:100%;
     position: fixed;
-    font-size: 40px;
-    font-family: Space Age;
+    font-size: 20px;
+    font-family: 'Kadwa', serif;
+    color:#0EB1D2;
+    padding:none;
+    /* text-decoration:none; */
 }
 
 .nav-left{
-    width:100%;
-    left:0;
+    text-align:left;
+}
+
+.nav-left-item{
+    font-size: 1.5em;
+    color:#0EB1D2;
+}
+.nav-left-item:hover{
+    fill:#252934;
+    transition: 250ms;
+    transition-timing-function: ease-in-out;
+    text-decoration:none !important;
+}
+
+.resume-icon{
+
+}
+
+.resume-text{
+    font-size:1.5em;
+    padding-top:.2em;
+}
+.resume-text:hover{
+
 }
 
 .nav-right{
+    text-align:right;
+    padding-top:.5em;
+    text-decoration:none !important;
+}
 
-    right:0px;
+.nav-right-item{
+    font-size: 1.5em;
+    padding-right:15px;
+    color:#0EB1D2;
+    text-decoration:none !important;
+}
+.nav-right-item:hover{
+    fill:#252934;
+    transition: 250ms;
+    transition-timing-function: ease-in-out;
+    text-decoration:none !important;
+}
+
+.row{
+    margin-right:0px !important;
+    margin-left:0px !important;
 }
