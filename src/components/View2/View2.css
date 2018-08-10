@@ -1,42 +1,98 @@
-.View2{
+
+
+
+.view2 {
+    background-color: #252934;
     text-align: center;
     height: 100vh;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    z-index:0;
+    /* border-top: 1px solid #9B9987; */
+}
+.view2-header {
+
+    height: 15vh;
+    color: #9B9987;
+}
+.view2-body {
+    height: 75vh;
+    font-family: 'Kadwa', serif;
+    font-size: 3.5em;
+    color:#E7E6F7
+
+}
+.view2-title {
+    font-size: 3.5em;
+    font-family: 'Kadwa', serif;
+
+    color: #E7E6F7;
+}
+.view2-media-icon {
+    padding-left:0px !important;
+}
+.view2-media-icon:hover {
+    fill: #E7E6F7;
+    transform: scale(1.1);
+    transition: 250ms;
+    transition-timing-function: ease-in-out;
+}
+.groot {
+    font-family: Guardians;
+    color: #654321;
+    text-shadow: -2px -2px 0 #2b1d0e, 2px -2px 0 #2b1d0e, -2px 2px 0 #2b1d0e, 2px 2px 0 #2b1d0e;
+}
+.title-name {
+    color: #C2F970;
+    text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222, 1px 1px 0 #222;
 }
 
-.View2-logo{
-    /* animation: App-logo-spin infinite 1s linear; */
-    height: 80px;
-}
-
-.View2-header{
-    background-color: #222;
-    height: 200px;
-    padding: 20px;
-    color: white;
-}
-
-.View2-title{
-    font-size: 5.5em;
-    background-color: #222;
-    color: white;
-}
-
-.down-arrow {
-    padding-top:125px;
-    color:green;
+.view2-up-arrow{
+    height: 10vh;
+    /* animation:arrow-fly 3s; */
+    /* animation-fill-mode: forwards; */
     animation: bounce .75s;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
     animation-iteration-count: infinite;
 }
-
+.view2-up-arrow:hover {
+    animation: bounce .25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+.view2-down-arrow {
+    height: 10vh;
+    /* animation:arrow-fly 3s; */
+    /* animation-fill-mode: forwards; */
+    animation: bounce .75s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+.view2-down-arrow:hover {
+    animation: bounce .25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
 @keyframes bounce {
     from {
-        transform: translate3d(0, 150px, 0);
+        transform: translate3d(0, 100px, 0);
     }
     to {
-        transform: translate3d(0, 75px, 0);
+        transform: translate3d(0, 175px, 0);
     }
 }
+    /* @keyframes something-fly {
+    0% {
+        animation:none;
+        transform: translate(0px, 0px) rotate(0deg);
+
+
+    }
+    100% {
+        transform: translate(-175px, 100px) rotate(50deg);
+    }
+
+} */

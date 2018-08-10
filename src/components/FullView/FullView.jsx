@@ -6,17 +6,20 @@ import View2 from '../View2/View2.jsx';
 import View3 from '../View3/View3.jsx';
 import View4 from '../View4/View4.jsx';
 import './FullView.css';
+import SnowStorm from 'react-snowstorm';
 // import SmoothScroll from '../SmoothScroll/SmoothScroll.jsx';
 
 class FullView extends Component {
     render() {
         return (
             <div>
+                
                 <Nav />
                 <View1 />
                 <View2 />
                 <View3 />
                 <View4 />
+
             </div>
         );
     }

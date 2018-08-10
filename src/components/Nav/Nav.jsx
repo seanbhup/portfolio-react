@@ -10,6 +10,26 @@ import {
     FaFilePdf,
     FaCaretLeft
 } from 'react-icons/fa';
+import {
+    faLevelDownAlt,
+    faLevelUpAlt,
+    faFilePdf,
+    faFile,
+    faAngleDown,
+    faStroopwafel,
+    faAngleUp,
+    faAngleDoubleUp
+} from '@fortawesome/free-solid-svg-icons';
+import {
+    FaGithub,
+    FaLinkedin,
+    FaStackOverflow,
+    FaTwitch,
+    FaInstagram,
+    FaSlackHash,
+    FaAngleDown,
+} from 'react-icons/fa';
+library.add(faFilePdf, faLevelDownAlt, faLevelUpAlt, faFile, faAngleDown, faStroopwafel, faAngleDoubleUp);
 
 class Nav extends Component {
     render() {
@@ -40,8 +60,13 @@ class Nav extends Component {
                     <Col xs={4} xsOffset={2}>
                         <div className='nav-right'>
                             <AnchorLink className='nav-right-item' href='#View2'>About</AnchorLink>
-                            <AnchorLink className='nav-right-item' href='#View3'>Portfolio</AnchorLink>
+                            <AnchorLink className='nav-right-item' href='#View3'>Projects</AnchorLink>
                             <AnchorLink className='nav-right-item' href='#View4'>Contact</AnchorLink>
+
+                            <AnchorLink className='nav-right-item' href='#View1'>
+                                <FontAwesomeIcon icon='angle-double-up' size='1x'/>
+                            </AnchorLink>
+
                         </div>
 
                     </Col>

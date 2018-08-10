@@ -1,35 +1,58 @@
 import React, {Component} from 'react'
-import pacman from '../../images/Pacman.svg';
-import jianyang from '../../images/jianyang.png'
-import Typist from 'react-typist';
 import './View2.css';
+import {Grid, Row, Col} from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLevelDownAlt } from '@fortawesome/free-solid-svg-icons'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {
+    faLevelDownAlt,
+    faLevelUpAlt,
+    faFilePdf,
+    faFile,
+    faAngleDown,
+    faStroopwafel
+} from '@fortawesome/free-solid-svg-icons';
+import {IconContext} from 'react-icons';
+import {
+    FaGithub,
+    FaLinkedin,
+    FaStackOverflow,
+    FaTwitch,
+    FaInstagram,
+    FaSlackHash,
+    FaAngleDown,
+    FaAngleUp
+} from 'react-icons/fa';
+library.add(faFilePdf, faLevelDownAlt, faLevelUpAlt, faFile, faAngleDown, faStroopwafel);
+
 
 class View2 extends Component {
     render() {
         return (
             <div id="View2">
-                <div className="View2">
-                    <header className="View2-header">
-                        <img src={pacman} className="View2-pacman" alt="pacman"/>
-                    </header>
-                    <div>
-                        <Typist className="View2-title">
-                            <span>I love you</span>
-                            <Typist.Backspace count={10} delay={3000}/>
-                            <span>About</span>
-                        </Typist>
-                    </div>
-                    <div>
-                        <img src={jianyang} className="jianyang"/>
-                    </div>
+                <div className='view2'>
+                    <div className='view2-header'>
 
-                    <div className="down-arrow">
+                    </div>
+                    <Row className='view2-body'>
+
+                            <Col xs={6}>
+                                About Me
+                            </Col>
+                            <Col xs={6}>
+                                What I Know
+                            </Col>
+
+                    </Row>
+                    <div className="view2-down-arrow">
                         <AnchorLink href='#View3'>
-                            <FontAwesomeIcon icon='level-down-alt' size='5x'/>
+                            <IconContext.Provider value={{
+                                    color: "#0EB1D2",
+                                    size: '5em',
+                                    className: "view2-media-icon"
+                                }}>
+                                <FaAngleDown />
+                            </IconContext.Provider>
                         </AnchorLink>
                     </div>
                 </div>

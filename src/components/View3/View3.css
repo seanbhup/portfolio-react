@@ -1,40 +1,88 @@
-.View3{
+
+.view3 {
+    background-color: #252934;
     text-align: center;
     height: 100vh;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
+    z-index:0;
+    /* border-top: 1px solid #9B9987; */
+}
+.view3-header {
+
+    height: 10vh;
+    color: #9B9987;
+}
+.view3-body {
+    height: 80vh;
+    font-family: 'Kadwa', serif;
+    font-size: 3.5em;
+    color:#E7E6F7
+
 }
 
-.View3-logo{
-    /* animation: App-logo-spin infinite 1s linear; */
-    height: 80px;
+.view3-title{
+    height:15vh;
 }
 
-.View3-header{
-    background-color: #222;
-    height: 200px;
-    padding: 20px;
-    color: white;
+.projects{
+    height:50vh;
 }
 
-.View3-title{
-    font-size: 5.5em;
-    background-color: #222;
-    color: white;
+.project{
+    border-radius:10%;
 }
 
-.down-arrow {
-    color:green;
+.project-image{
+    border-radius:10%;
+}
+.project:hover{
+    transform:scale(1.2);
+}
+
+.view2-media-icon {
+    padding-left: 20px;
+}
+
+.view3-media-icon:hover {
+    fill: #E7E6F7;
+    transform: scale(1.1);
+    transition: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+.view3-down-arrow {
+    height: 5vh;
+    /* animation:arrow-fly 3s; */
+    /* animation-fill-mode: forwards; */
     animation: bounce .75s;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
     animation-iteration-count: infinite;
 }
-
+.view3-down-arrow:hover {
+    animation: bounce .25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
 @keyframes bounce {
     from {
-        transform: translate3d(0, 150px, 0);
+        transform: translate3d(0, 100px, 0);
     }
     to {
         transform: translate3d(0, 175px, 0);
     }
 }
+    /* @keyframes something-fly {
+    0% {
+        animation:none;
+        transform: translate(0px, 0px) rotate(0deg);
+
+
+    }
+    100% {
+        transform: translate(-175px, 100px) rotate(50deg);
+    }
+
+} */

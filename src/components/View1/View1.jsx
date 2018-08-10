@@ -3,6 +3,7 @@ import pacman from '../../images/Pacman.svg';
 import jianyang from '../../images/jianyang.png';
 import face from '../../images/face.png';
 import Typist from 'react-typist';
+import SnowStorm from 'react-snowstorm';
 import './View1.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
@@ -30,8 +31,8 @@ library.add(faFilePdf, faLevelDownAlt, faLevelUpAlt, faFile, faAngleDown, faStro
 class View1 extends Component {
     render() {
         return (
-            <div id="view1">
-                <div className="view1">
+            <div id="View1">
+                <div className='view1'>
                     <div className="view1-header">
 
                     </div>
@@ -42,7 +43,7 @@ class View1 extends Component {
                                 <div className='media-icons'>
                                     <IconContext.Provider value={{
                                             color: "#0EB1D2",
-                                            size: '5em',
+                                            size: '4em',
                                             className: "media-icon"
                                         }}>
                                         <div>
@@ -61,9 +62,7 @@ class View1 extends Component {
                                             <a href='https://www.twitch.tv/loqnessmonster/' target="_blank">
                                                 <FaTwitch/>
                                             </a>
-                                            <a href='https://www.twitch.tv/loqnessmonster/' target="_blank">
-                                                <FaTwitch/>
-                                            </a>
+
                                         </div>
                                     </IconContext.Provider>
                                     {/* <FontAwesomeIcon icon='file' size='5x' id='media-icon'/> */}
