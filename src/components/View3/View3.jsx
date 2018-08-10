@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './View3.css';
+import geogame from '../../images/geogame.png';
 import atlantavibes from '../../images/atlantavibes.png';
 import {Grid, Row, Col} from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -43,10 +44,9 @@ class View3 extends Component {
                         <Row>
                             <Col xs={3}>
                                 <div className='project project1'>
-                                    <img src={atlantavibes} />
+                                    <img className='project-image' src={geogame} />
                                 </div>
                             </Col>
-
                             <Col xs={3} xsOffset={3}>
                                 <div className='project project1'>
                                     <img className='project-image' src={atlantavibes} />
