@@ -53,7 +53,7 @@ class View1 extends Component {
                                             <a href='https://www.linkedin.com/in/seanbhupathi/' target="_blank">
                                                 <FaLinkedin/>
                                             </a>
-                                            <a href='https://stackoverflow.com/story/seanbhup' target="_blank">
+                                            {/* <a href='https://stackoverflow.com/story/seanbhup' target="_blank">
                                                 <FaStackOverflow/>
                                             </a>
                                             <a href='https://www.instagram.com/seanbhupathi/' target="_blank">
@@ -61,7 +61,7 @@ class View1 extends Component {
                                             </a>
                                             <a href='https://www.twitch.tv/loqnessmonster/' target="_blank">
                                                 <FaTwitch/>
-                                            </a>
+                                            </a> */}
 
                                         </div>
                                     </IconContext.Provider>

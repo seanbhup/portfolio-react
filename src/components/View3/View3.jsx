@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './View3.css';
 import geogame from '../../images/geogame.png';
+import alienslaughter from '../../images/alienslaughter.png';
 import atlantavibes from '../../images/atlantavibes.png';
 import {Grid, Row, Col} from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -16,6 +17,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {IconContext} from 'react-icons';
 import {
+    FaSortUp,
     FaGithub,
     FaLinkedin,
     FaStackOverflow,
@@ -44,26 +46,67 @@ class View3 extends Component {
                         <Row>
                             <Col xs={3}>
                                 <div className='project project1'>
-                                    <img className='project-image' src={geogame} />
+                                    <img className='project-image' src={alienslaughter} />
                                 </div>
                             </Col>
-                            <Col xs={3} xsOffset={3}>
+                            <Col xs={3}>
+                                <div className='project project-description'>
+                                    AtlantaVibes
+                                </div>
+                            </Col>
+                            <Col xs={3}>
                                 <div className='project project1'>
                                     <img className='project-image' src={atlantavibes} />
+                                </div>
+                            </Col>
+                            <Col xs={3}>
+                                <div className='project project-description'>
+                                    description
                                 </div>
                             </Col>
 
                         </Row>
                         <Row>
-                            <Col xs={3} xsOffset={3}>
+                            <Col xs={3} >
                                 <div className='project project1'>
-                                    <img src={atlantavibes} />
+                                    <IconContext.Provider value={{
+                                            color: "#E7E6F7",
+                                            size: '1em',
+                                            className: "arrow"
+                                        }}>
+                                        <div>
+                                            <FaSortUp/>
+                                            <br></br>
+                                            Alien Slaughter:
+                                            The Game
+                                            <br></br>
+                                            <span className='small-text'>
+                                                Space shooter game made with
+                                                Unity and C#
+                                            </span>
+                                            <br></br>
+                                            <span>
+                                                <a href='https://github.com/seanbhup/Alien-Slaughter'>More Info</a>
+                                                
+                                            </span>
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                            </Col>
+                            <Col xs={3} >
+                                <div className='project project1'>
+                                    <img className='project-image' src={atlantavibes}  />
                                 </div>
                             </Col>
 
-                            <Col xs={3} xsOffset={3}>
+                            <Col xs={3} >
                                 <div className='project project1'>
-                                    <img src={atlantavibes} />
+                                    description
+                                </div>
+                            </Col>
+                            <Col xs={3} >
+                                <div className='project project1'>
+                                    <img className='project-image' src={geogame}  />
                                 </div>
                             </Col>
                         </Row>
