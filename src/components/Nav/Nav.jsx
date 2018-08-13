@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Row, Col} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Nav.css';
 import Resume from '../../images/SeanBhupathiResume.pdf';
@@ -7,8 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {IconContext} from 'react-icons';
 import {
-    FaFilePdf,
-    FaCaretLeft
+    FaFilePdf
 } from 'react-icons/fa';
 import {
     faLevelDownAlt,
@@ -17,18 +16,9 @@ import {
     faFile,
     faAngleDown,
     faStroopwafel,
-    faAngleUp,
     faAngleDoubleUp
 } from '@fortawesome/free-solid-svg-icons';
-import {
-    FaGithub,
-    FaLinkedin,
-    FaStackOverflow,
-    FaTwitch,
-    FaInstagram,
-    FaSlackHash,
-    FaAngleDown,
-} from 'react-icons/fa';
+
 library.add(faFilePdf, faLevelDownAlt, faLevelUpAlt, faFile, faAngleDown, faStroopwafel, faAngleDoubleUp);
 
 class Nav extends Component {
