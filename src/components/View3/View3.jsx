@@ -163,7 +163,7 @@ class View3 extends Component {
                                             Glitch Garden
                                             <br></br>
                                             <span className='small-text'>
-                                                Plants vs Zombies clone -
+                                                Plants vs. Zombies clone -
                                                 Unity and C#
                                             </span>
                                             <br></br>
