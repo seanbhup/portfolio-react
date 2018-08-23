@@ -81,7 +81,7 @@ class View1 extends Component {
                                     show: false
                                 }} className="view1-title">
                                 <Typist.Delay ms={6800}/>
-                                <span>Full Stack Developer *Site under construction*</span>
+                                <span>Full Stack Developer Site under construction</span>
                             </Typist>
                             <Typist avgTypingDelay={70} cursor={{
                                     show: false
